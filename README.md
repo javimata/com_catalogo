@@ -8,9 +8,11 @@ component/catalogo/producto/[id]/[alias]
 
 Bueno, resulta que el problema con el router va más alla, a un producto puedo llegar desde un link a la categoria principal, el problema es que algunos productos estan en subcategorias, un ejemplo de categorias es:
 
+[pre]
 - Accesorios y más
 -- Accesorios
 --- Cascos
+[/pre]
 
 Cuando se entra a Accesorios y más o a Accesorios se muestran todos los productos que estén en esas categorias, entonces, un producto que esté en Cascos me genera 3 links diferentes, uno con el alias de cada categoria :-S dependiendo de donde entre.
 
