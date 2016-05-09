@@ -8,7 +8,7 @@ component/catalogo/producto/[id]/[alias]
 
 Bueno, resulta que el problema con el router va más alla, a un producto puedo llegar desde un link a la categoria principal, el problema es que algunos productos estan en subcategorias, un ejemplo de categorias es:
 
-- Accesorios y más
+- Accesorios y más<br>
 
 -- Accesorios
 
