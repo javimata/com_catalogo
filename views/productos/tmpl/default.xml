@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_CATALOGO_TITLE_LIST_VIEW_PRODUCTOS" option="View">
+        <message>
+                        <![CDATA[COM_CATALOGO_TITLE_LIST_VIEW_PRODUCTOS_DESC]]>
+        </message>
+	</layout>
+
+    <fields name="params">
+        <fieldset 
+            name="basic"
+            label="Configuración">
+            <field name="category_id" type="category" default="" show_root="1" extension="com_catalogo" label="Select a category" description="" />
+
+            <field name="category_description" type="textarea" default="" label="Descripcion" description="Texto de descripcion" />
+
+            <field name="promociones" type="list" default="1" label="Mostrar Promociones" description="Muestra productos en promocion">
+              <option value="1">Si</option>
+              <option value="2">No</option>
+              <option value="3">Solo Promociones</option>
+            </field>
+
+        </fieldset>
+
+    </fields>
+	
+</metadata>
